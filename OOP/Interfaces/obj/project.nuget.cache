@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CxKw6n9/WMz7+qmkMPEUs4nBJgxdhicjMN9Kr71EKAYXAxeI2jRj+hu3qrD3sNTrjbnfJscqhbKONbcuuwyp/w==",
+  "success": true,
+  "projectFilePath": "F:\\TecnologiasInternet\\OOP\\Interfaces\\Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
