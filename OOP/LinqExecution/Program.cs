@@ -56,7 +56,6 @@ namespace LinqExecution
 				.Where(joined => joined.career.Name == "Ing. Sistemas")
 				.Select(joined => joined.student);
 
-
 			foreach (var student in filtered)
 			{
 				Console.WriteLine(student);
