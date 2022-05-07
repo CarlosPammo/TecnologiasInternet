@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KN/p9LN5hcGGG5BZMqa1BEFXHa3VR3t7xZFSgJezIjPiEza/zbZlBWPe9lfrfrxKX0MyKNExjvh8OZgsFHxRoQ==",
+  "dgSpecHash": "u/zTMx3HyGjxPC+A8STcxRAZuaS795nWntufLQp3HfCpgFFkhn/I4zh/wzT7hFwHpwswpQnt1vCRKw85fLv5mw==",
   "success": true,
-  "projectFilePath": "F:\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj",
+  "projectFilePath": "F:\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
   ],

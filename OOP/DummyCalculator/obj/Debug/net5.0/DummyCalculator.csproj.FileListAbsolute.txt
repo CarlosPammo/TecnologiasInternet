@@ -1,0 +1,15 @@
+F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.exe
+F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.deps.json
+F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.runtimeconfig.json
+F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.runtimeconfig.dev.json
+F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.dll
+F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\ref\DummyCalculator.dll
+F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.pdb
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.GeneratedMSBuildEditorConfig.editorconfig
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.AssemblyInfoInputs.cache
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.AssemblyInfo.cs
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.csproj.CoreCompileInputs.cache
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.dll
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\ref\DummyCalculator.dll
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.pdb
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.genruntimeconfig.cache
