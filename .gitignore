@@ -1,0 +1,21 @@
+ipch/
+.cvsignore
+CVS/
+bin/
+obj/
+Debug/
+Release/
+packages/
+*Visual Studio 2010*
+*.trx
+*.suo
+*.sdf
+*.user
+*.ncb
+*.Moles.xml
+*.dll
+*.sdf
+*.opensdf
+*.vsmdi
+*.isr
+*.obs

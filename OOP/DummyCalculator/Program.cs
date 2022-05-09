@@ -7,7 +7,7 @@ namespace DummyCalculator
 	{
 		static void Main(string[] args)
 		{
-			var operation = new Operation(new Addition());
+			var operation = new Operation(new Fibonnacci());
 
 			Console.WriteLine(operation.ExecuteOperation());
 
