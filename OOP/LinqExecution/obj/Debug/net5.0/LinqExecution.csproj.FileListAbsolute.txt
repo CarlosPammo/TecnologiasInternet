@@ -1,0 +1,16 @@
+F:\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.exe
+F:\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.deps.json
+F:\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.runtimeconfig.json
+F:\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.runtimeconfig.dev.json
+F:\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.dll
+F:\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\ref\LinqExecution.dll
+F:\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.pdb
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.csproj.AssemblyReference.cache
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.GeneratedMSBuildEditorConfig.editorconfig
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.AssemblyInfoInputs.cache
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.AssemblyInfo.cs
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.csproj.CoreCompileInputs.cache
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.dll
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\ref\LinqExecution.dll
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.pdb
+F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.genruntimeconfig.cache

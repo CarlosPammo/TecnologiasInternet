@@ -1,6 +1,7 @@
 ﻿using LinqExecution.DataAccess;
 using System.Linq;
 using System;
+using LinqExecution.Entities;
 
 namespace LinqExecution
 {
@@ -8,6 +9,9 @@ namespace LinqExecution
 	{
 		static void Main(string[] args)
 		{
+			int number = 0;
+			number.ToString();
+
 			var students = new StudentDataAccess()
 				.GetStudents();
 			var studies = new StudyDataAccess()
@@ -56,9 +60,9 @@ namespace LinqExecution
 				.Where(joined => joined.career.Name == "Ing. Sistemas")
 				.Select(joined => joined.student);
 
-			foreach (var student in filtered)
+			foreach (Student student in filtered)
 			{
-				Console.WriteLine(student);
+				Console.WriteLine(student.GetAge());
 			}
 
 			Console.ReadKey();
