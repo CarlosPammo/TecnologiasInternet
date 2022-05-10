@@ -1,0 +1,19 @@
+﻿using EntityAccess.Model;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity.ModelConfiguration;
+
+namespace EntityAccess.Map
+{
+	public class StudyMap : EntityTypeConfiguration<Study>
+	{
+		public StudyMap(string schema)
+		{
+			ToTable("Estudia", schema);
+			HasKey(p => p.Id);
+			Property(p => p.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+			Property(p => p.Id).HasColumnName("Llave").IsRequired();
+			Property(p => p.IdStudent).HasColumnName("IdEstudiante").IsRequired();
+			Property(p => p.IdCareer).HasColumnName("IdCarrera").IsRequired();
+		}
+	}
+}
