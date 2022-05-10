@@ -9,8 +9,18 @@ namespace Generics
 	{
 		static void Main(string[] args)
 		{
-			var registry = new Registry<Student>().Where(student => student.Id == "2");
-			foreach (var current in registry)
+			var students = new Registry<Student>();
+			var careers = new Registry<Career>();
+			var studies = new Registry<Study>();
+
+            var filtered =
+                from student in students
+                join study in studies on student.Id equals study.IdStudent
+                join career in careers on study.IdCareer equals career.Id
+                where career.Name == "Ing. Sistemas"
+                select student;
+
+            foreach (var current in filtered)
 			{
 				Console.WriteLine(current);
 			}

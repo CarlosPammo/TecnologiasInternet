@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "F:\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj": {}
+    "D:\\Proyectos\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj": {}
   },
   "projects": {
-    "F:\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj": {
+    "D:\\Proyectos\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj",
+        "projectUniqueName": "D:\\Proyectos\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj",
         "projectName": "DummyCalculator",
-        "projectPath": "F:\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj",
-        "packagesPath": "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\",
-        "outputPath": "F:\\TecnologiasInternet\\OOP\\DummyCalculator\\obj\\",
+        "projectPath": "D:\\Proyectos\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj",
+        "packagesPath": "C:\\Users\\Brand\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\TecnologiasInternet\\OOP\\DummyCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Carlos.Pammo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -53,37 +55,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.16, 5.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj": {
+    "D:\\Proyectos\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj",
+        "projectUniqueName": "D:\\Proyectos\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj",
         "projectName": "OOP",
-        "projectPath": "F:\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj",
-        "packagesPath": "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\",
-        "outputPath": "F:\\TecnologiasInternet\\OOP\\OOP\\obj\\",
+        "projectPath": "D:\\Proyectos\\TecnologiasInternet\\OOP\\OOP\\OOP.csproj",
+        "packagesPath": "C:\\Users\\Brand\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\TecnologiasInternet\\OOP\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Carlos.Pammo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -96,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj": {
-                "projectPath": "F:\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj"
+              "D:\\Proyectos\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj": {
+                "projectPath": "D:\\Proyectos\\TecnologiasInternet\\OOP\\DummyCalculator\\DummyCalculator.csproj"
               }
             }
           }
@@ -121,18 +119,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.16, 5.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
