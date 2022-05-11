@@ -12,12 +12,14 @@ namespace Generics
 			var students = new Registry<Student>();
 			var careers = new Registry<Career>();
 			var studies = new Registry<Study>();
+			var subjects = new Registry<Subject>();
+			var grades = new Registry<Grades>();
 
             var filtered =
                 from student in students
-                join study in studies on student.Id equals study.IdStudent
-                join career in careers on study.IdCareer equals career.Id
-                where career.Name == "Ing. Sistemas"
+                join grade in grades on student.Id equals grade.IdStudent
+                join subject in subjects on grade.IdSubject equals subject.Id
+                where subject.Name == "Calculo 1" && grade.grade >= 60
                 select student;
 
             foreach (var current in filtered)
