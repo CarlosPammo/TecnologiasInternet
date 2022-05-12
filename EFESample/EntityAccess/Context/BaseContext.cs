@@ -18,7 +18,7 @@ namespace EntityAccess.Context
 		private void SetConnectionString()
 		{
 			Database.Connection.ConnectionString
-				= @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\TecnologiasInternet\EFESample\EFESample\Resources\MyDbSample.mdf;Integrated Security=True";
+				= @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\TecnologiasInternet\EFESample\EFESample\Resources\Database1.mdf;Integrated Security=True";
 		}
 
 		protected override void OnModelCreating(DbModelBuilder builder)

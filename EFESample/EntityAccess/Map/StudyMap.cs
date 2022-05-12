@@ -14,6 +14,9 @@ namespace EntityAccess.Map
 			Property(p => p.Id).HasColumnName("Llave").IsRequired();
 			Property(p => p.IdStudent).HasColumnName("IdEstudiante").IsRequired();
 			Property(p => p.IdCareer).HasColumnName("IdCarrera").IsRequired();
+
+			HasRequired(p => p.Student).WithMany().HasForeignKey(p => p.IdStudent);
+			HasRequired(p => p.Career).WithMany().HasForeignKey(p => p.IdCareer);
 		}
 	}
 }
