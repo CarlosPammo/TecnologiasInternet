@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace USIP
+namespace USIP_WEB
 {
 	public class BundleConfig
 	{
