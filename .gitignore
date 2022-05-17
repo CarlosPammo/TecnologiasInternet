@@ -6,6 +6,8 @@ obj/
 Debug/
 Release/
 packages/
+lib/
+node_modules/
 *Visual Studio 2010*
 *.trx
 *.suo
