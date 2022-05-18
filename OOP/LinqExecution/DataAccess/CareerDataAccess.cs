@@ -11,7 +11,21 @@ namespace LinqExecution.DataAccess
 	{
 		public List<Career> GetCareeers()
 		{
-			return new List<Career>();
+			return new List<Career>()
+			{
+				new Career
+                {
+					ID =1,
+					Name="Ing. de Sistemas",
+					Code="IS"
+                },
+				new Career
+				{
+					ID =2,
+					Name="Ing. en Telecomunicaciones",
+					Code="IT"
+				}
+			};
 		}
 	}
 }

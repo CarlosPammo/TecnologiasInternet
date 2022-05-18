@@ -11,7 +11,19 @@ namespace LinqExecution.DataAccess
 	{
 		public List<Study> GetStudies()
 		{
-			return new List<Study>();
+			return new List<Study>()
+			{
+				new Study
+                {
+					IdCareer=1,
+					IdStudent=2
+                },
+				new Study
+				{
+					IdCareer=2,
+					IdStudent=1
+				}
+			};
 		}
 	}
 }
