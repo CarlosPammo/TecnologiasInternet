@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPVhPqWjwjCCCYDsf6/bEXU3nfQfRN5Lz9eZ5e4RI3OomaMh5w1mrIFvj6kcuiQwyN0UUnetkCZzzLY8L7F6ig==",
+  "dgSpecHash": "A4+g+wK0Lrv0vEQV0FdadLWCo/WDz1cKyq2QLbbz1aHX7oJoQ5soDaWKTzQxp+fjJETSQjuQR5f8g8tG148VZg==",
   "success": true,
-  "projectFilePath": "F:\\TecnologiasInternet\\OOP\\LinqExecution\\LinqExecution.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "E:\\USIP VII\\TECNOLOGIA DEL INTERNET\\GIT\\TecnologiasInternet\\OOP\\LinqExecution\\LinqExecution.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

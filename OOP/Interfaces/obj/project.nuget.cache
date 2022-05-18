@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CxKw6n9/WMz7+qmkMPEUs4nBJgxdhicjMN9Kr71EKAYXAxeI2jRj+hu3qrD3sNTrjbnfJscqhbKONbcuuwyp/w==",
+  "dgSpecHash": "Srz32Yt94pWOV/FgE7meULAZX3/R/NkXDbzWpotBp4SM5p7/JGNd+EjpZPsohO+PxBFbq86czAdEbG8RwkeOxQ==",
   "success": true,
-  "projectFilePath": "F:\\TecnologiasInternet\\OOP\\Interfaces\\Interfaces.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "E:\\USIP VII\\TECNOLOGIA DEL INTERNET\\GIT\\TecnologiasInternet\\OOP\\Interfaces\\Interfaces.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

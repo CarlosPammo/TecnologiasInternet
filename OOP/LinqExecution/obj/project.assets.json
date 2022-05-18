@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\": {},
+    "C:\\Users\\ALVIN HP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TecnologiasInternet\\OOP\\LinqExecution\\LinqExecution.csproj",
+      "projectUniqueName": "E:\\USIP VII\\TECNOLOGIA DEL INTERNET\\GIT\\TecnologiasInternet\\OOP\\LinqExecution\\LinqExecution.csproj",
       "projectName": "LinqExecution",
-      "projectPath": "F:\\TecnologiasInternet\\OOP\\LinqExecution\\LinqExecution.csproj",
-      "packagesPath": "C:\\Users\\Carlos.Pammo\\.nuget\\packages\\",
-      "outputPath": "F:\\TecnologiasInternet\\OOP\\LinqExecution\\obj\\",
+      "projectPath": "E:\\USIP VII\\TECNOLOGIA DEL INTERNET\\GIT\\TecnologiasInternet\\OOP\\LinqExecution\\LinqExecution.csproj",
+      "packagesPath": "C:\\Users\\ALVIN HP\\.nuget\\packages\\",
+      "outputPath": "E:\\USIP VII\\TECNOLOGIA DEL INTERNET\\GIT\\TecnologiasInternet\\OOP\\LinqExecution\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Carlos.Pammo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ALVIN HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -60,18 +60,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.16, 5.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,3 +13,19 @@ F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.dll
 F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\ref\LinqExecution.dll
 F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.pdb
 F:\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.genruntimeconfig.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.exe
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.deps.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.runtimeconfig.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.runtimeconfig.dev.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\ref\LinqExecution.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\bin\Debug\net5.0\LinqExecution.pdb
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.csproj.AssemblyReference.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.GeneratedMSBuildEditorConfig.editorconfig
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.AssemblyInfoInputs.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.AssemblyInfo.cs
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.csproj.CoreCompileInputs.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\ref\LinqExecution.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.pdb
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\LinqExecution\obj\Debug\net5.0\LinqExecution.genruntimeconfig.cache
