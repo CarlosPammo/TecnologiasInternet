@@ -4,9 +4,9 @@
 			return {
 				restrict: "E",
 				replace: true,
-				scope: {},
-				link: function (scope) {
-
+				scope: {
+					handler: "=",
+					student: "="
 				},
 				templateUrl: "Scripts/student/student.html"
 			}

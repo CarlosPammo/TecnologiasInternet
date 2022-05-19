@@ -18,7 +18,7 @@ namespace USIP.Data.Context
 		private void SetConnectionString()
 		{
 			Database.Connection.ConnectionString
-				= @"";
+				= @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\TecnologiasInternet\USIP\USIP\App_Data\USIP.mdf;Integrated Security=True";
 		}
 
 		protected override void OnModelCreating(DbModelBuilder builder)

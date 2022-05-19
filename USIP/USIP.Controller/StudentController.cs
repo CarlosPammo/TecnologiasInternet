@@ -5,6 +5,7 @@ using USIP.Model;
 
 namespace USIP.Controller
 {
+	[AllowAnonymous]
 	public class StudentController : BaseController
 	{
 		[HttpGet]

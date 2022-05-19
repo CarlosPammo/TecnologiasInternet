@@ -36,4 +36,14 @@ angular
 
 			$urlRouterProvider.otherwise("/home")
 		}
+	])
+	.service("Api", ["$resource",
+		function ($resource) {
+			this.student = $resource("../api/student", null, {
+				"get": { method: "GET" },
+				"post": { method: "POST" },
+				"put": { method: "PUT" },
+				"delete": { method: "DELETE" }
+			});
+		}
 	]);
