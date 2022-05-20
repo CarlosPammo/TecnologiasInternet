@@ -5,6 +5,7 @@ F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.runt
 F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.dll
 F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\ref\DummyCalculator.dll
 F:\TecnologiasInternet\OOP\DummyCalculator\bin\Debug\net5.0\DummyCalculator.pdb
+F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.csproj.AssemblyReference.cache
 F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.GeneratedMSBuildEditorConfig.editorconfig
 F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.AssemblyInfoInputs.cache
 F:\TecnologiasInternet\OOP\DummyCalculator\obj\Debug\net5.0\DummyCalculator.AssemblyInfo.cs

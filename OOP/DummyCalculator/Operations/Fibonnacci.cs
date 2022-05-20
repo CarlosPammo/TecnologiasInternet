@@ -12,8 +12,10 @@ namespace DummyCalculator.Operations
 
 		public int ExecuteOperation()
 		{
-			int last = 1;
-			int current = 1;
+			int previous = 0;
+			int currentIndex = 1;
+			int currentValue = 1;
+			int next;
 			int response = 0;
 			do
 			{
@@ -24,14 +26,15 @@ namespace DummyCalculator.Operations
 				}
 				else
 				{
-					int previous = last;
-					last = last + previous;
+					next = previous + currentValue;
+					previous = currentValue;
+					currentValue = next;
 				}
-				current++;
+				currentIndex++;
 
-				if (Index == current)
+				if (Index == currentIndex)
 				{
-					response = last;
+					response = currentValue;
 				}
 			} while (response == 0);
 			return response;

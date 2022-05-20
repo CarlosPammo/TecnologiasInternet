@@ -1,0 +1,63 @@
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.exe
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Careers.txt
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Students.txt
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.deps.json
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.runtimeconfig.json
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.runtimeconfig.dev.json
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.dll
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\ref\Generics.dll
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.pdb
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.csproj.AssemblyReference.cache
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.AssemblyInfoInputs.cache
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.AssemblyInfo.cs
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.csproj.CoreCompileInputs.cache
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.dll
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\ref\Generics.dll
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.pdb
+D:\Proyectos\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.genruntimeconfig.cache
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Study.txt
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Grades.txt
+D:\Proyectos\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Subjects.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Generics.exe
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Resources\Careers.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Resources\ratings.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Resources\Students.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Resources\Study.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Resources\Subjects.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Generics.deps.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Generics.runtimeconfig.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Generics.runtimeconfig.dev.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\ref\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\bin\Debug\net5.0\Generics.pdb
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.csproj.AssemblyReference.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.AssemblyInfoInputs.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.AssemblyInfo.cs
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.csproj.CoreCompileInputs.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\ref\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.pdb
+E:\USIP VII\TECNOLOGIA DEL INTERNET\$RVD58SL\OOP\Generics\obj\Debug\net5.0\Generics.genruntimeconfig.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.exe
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Careers.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\ratings.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Students.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Study.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Resources\Subjects.txt
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.deps.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.runtimeconfig.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.runtimeconfig.dev.json
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\ref\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\bin\Debug\net5.0\Generics.pdb
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.csproj.AssemblyReference.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.AssemblyInfoInputs.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.AssemblyInfo.cs
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.csproj.CoreCompileInputs.cache
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\ref\Generics.dll
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.pdb
+E:\USIP VII\TECNOLOGIA DEL INTERNET\GIT\TecnologiasInternet\OOP\Generics\obj\Debug\net5.0\Generics.genruntimeconfig.cache
