@@ -39,6 +39,39 @@ namespace LinqExecution
 			//	where career.Name == "Ing. Sistemas"
 			//	select student;
 
+			/*
+            var filtered =
+                from student in students
+                join study in studies on student.ID equals study.IdStudent
+                join career in careers on study.IdCareer equals career.ID
+                where career.Name == "Ing. Sistemas" && student.Birthdate.Month==4
+
+                select student;
+			*/
+			//*******************************
+			//Extension Methods join example practice 1
+			var filtered = students
+				.Join(studies,
+					student => student.ID,
+					study => study.IdStudent,
+					(student, study) => new
+					{
+						student,
+						study.IdCareer
+					})
+				.Join(careers,
+					mixed => mixed.IdCareer,
+					career => career.ID,
+					(mixed, career) => new
+					{
+						mixed.student,
+						career
+					})
+				.Where(joined => joined.career.Name == "Ing. Sistemas" && student.Birthdate.Month == 4)
+				.Select(joined => joined.student);
+
+			//*******************************
+			/*
 			//Extension Methods
 			var filtered = students
 				.Join(studies,
@@ -64,6 +97,7 @@ namespace LinqExecution
 			{
 				Console.WriteLine(student.GetAge());
 			}
+			*/
 
 			Console.ReadKey();
 		}
