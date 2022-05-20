@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyCalculator", "DummyCal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExecution", "LinqExecution\LinqExecution.csproj", "{1EAEC2A9-6AE0-43F9-B204-FD28A7075AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{189DBD1A-B6D5-46CA-98D0-776A6FCB05DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{189DBD1A-B6D5-46CA-98D0-776A6FCB05DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
