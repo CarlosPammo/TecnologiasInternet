@@ -1,0 +1,25 @@
+﻿<div layout fill class="col-lg-12 login">
+	<form layout fill name="loginform" ng-submit="login()">
+		<ul>
+			<li>
+				<div>
+					<span class="glyphicon glyphicon-book"></span>
+					<h2> USIP </h2>
+				</div>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="text" ng-model="credentials.user" placeholder="Nombre de Usuario" />
+			</li>
+			<li>
+				<input type="password" ng-model="credentials.password" placeholder="Contrasenia" />
+			</li>
+			<li>
+				<button class="btn btn-default" type="submit">
+					<span class="glyphicon glyphicon-log-in"></span> Ingresar
+				</button>
+			</li>
+		</ul>
+	</form>
+</div>

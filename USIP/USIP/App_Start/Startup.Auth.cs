@@ -1,6 +1,7 @@
 ﻿using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
+using System;
 using USIP.Core;
 
 namespace USIP
@@ -18,6 +19,7 @@ namespace USIP
 				TokenEndpointPath = new PathString("/Token"),
 				AuthorizeEndpointPath = new PathString("/api/Login"),
 				Provider = new AccessProvider(ClientId),
+				AccessTokenExpireTimeSpan = TimeSpan.FromHours(1),
 				AllowInsecureHttp = true
 			};
 		}

@@ -76,6 +76,10 @@
       <Project>{28844e5a-6c87-4a07-b5ed-fddc33c062fd}</Project>
       <Name>USIP.Error</Name>
     </ProjectReference>
+    <ProjectReference Include="..\USIP.Model\USIP.Model.csproj">
+      <Project>{7596C1B0-B116-4383-91D3-B164755CD29E}</Project>
+      <Name>USIP.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

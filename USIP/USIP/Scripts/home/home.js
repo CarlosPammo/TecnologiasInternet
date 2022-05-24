@@ -1,6 +1,6 @@
 ﻿angular.module("home", [])
-	.directive("home", ["Api", "$uibModal",
-		function (api, $modal) {
+	.directive("home", ["Api", "Authentication", "$uibModal",
+		function (api, authentication, $modal) {
 			return {
 				restrict: "E",
 				replace: true,
@@ -44,8 +44,19 @@
 						modal = $modal.open(config);
 					};
 
-					scope.delete = function(student) {
+					scope.delete = function (student) {
+						api.student.delete(student,
+							function () {
+								load();
+							}, function () {
+								alert("error del servidor");
+							}
+						);
 					};
+
+					scope.logOut = function () {
+						authentication.loggingOff();
+					}
 
 					load();
 				},

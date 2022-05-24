@@ -1,24 +1,64 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿body,
+html,
+.usip {
+	font-size: 62.5%;
+	height: 100%;
+	font-family: 'Comic Sans MS'
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+body {
+	width: 100%;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
+a,
 input,
-select,
-textarea {
-    max-width: 280px;
+div,
+span,
+pre,
+label,
+dd {
+	font-size: 1.4rem;
+	font-family: 'Comic Sans MS'
 }
+
+pre {
+	padding: 0;
+	background: none;
+	margin: 0;
+	color: inherit;
+	border: none;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.cursor {
+	cursor: pointer;
+	padding:0;
+	outline: none;
+}
+
+.login {
+	background: linear-gradient(to bottom #ffd800, #0026ff);
+	text-align: center;
+	padding-top: 50px;
+}
+	.login input[type="text"],
+	.login input[type="password"] {
+		margin-top: 30px;
+		width: 350px;
+	}
+
+	.login button[type="submit"] {
+		margin-top: 30px;
+		background: lightskyblue;
+	}
+
+	.login button[type="text"],
+	.login button[type="password"],
+	.login button[type="button"] {
+		color: #000000;
+	}
+
+	.login span {
+		color: #ffffff
+	}

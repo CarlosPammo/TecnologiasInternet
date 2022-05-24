@@ -51,7 +51,7 @@ namespace USIP.Controller
 			var response = Repository<Student>()
 				.Delete(student => student.Id.Equals(id));
 
-			return response > 0
+			return response
 				? Request.CreateResponse(HttpStatusCode.OK)
 				: Request.CreateResponse(HttpStatusCode.BadRequest);
 		}

@@ -38,12 +38,12 @@ namespace USIP.Data
 			return Context.SaveChanges();
 		}
 
-		public int Delete(Expression<Func<T, bool>> lambda)
+		public bool Delete(Expression<Func<T, bool>> lambda)
 		{
 			var matches = Select(lambda);
 			if (matches == null)
 			{
-				return 0;
+				return false;
 			}
 
 			foreach (T match in matches)
@@ -51,7 +51,7 @@ namespace USIP.Data
 				Context.Set<T>().Remove(match);
 			}
 			Context.SaveChanges();
-			return matches.Count();
+			return true;
 		}
 
 		public IQueryable<T> Select(Expression<Func<T, bool>> lambda)
