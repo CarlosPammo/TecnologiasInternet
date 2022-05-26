@@ -4,6 +4,8 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
+using USIP.Error;
+using USIP.Error.Critical;
 
 namespace USIP.Core
 {
@@ -17,11 +19,22 @@ namespace USIP.Core
 				return response;
 			}
 
-			//TODO: Log and track exception
+			var temporal = response.Exception.GetBaseException();
+			AbstractException baseException;
+			if (temporal is AbstractException)
+			{
+				baseException = temporal as AbstractException;
+			}
+			else
+			{
+				baseException = new CriticalException(temporal);
+			}
+
+			baseException.TrackException();
 			var content = JsonConvert.SerializeObject(new
 			{
-				type = response.Exception.GetType(),
-				Message = response.Exception.Message
+				type = baseException.GetType().Name,
+				Message = baseException.FriendlyMessage
 			});
 
 			response = Task.Run(() => new HttpResponseMessage(HttpStatusCode.InternalServerError)

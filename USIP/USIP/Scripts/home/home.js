@@ -32,8 +32,6 @@
 								function (response) {
 									load();
 									modal.close();
-								}, function () {
-									alert("error del servidor");
 								}
 							);
 						}
@@ -48,8 +46,6 @@
 						api.student.delete(student,
 							function () {
 								load();
-							}, function () {
-								alert("error del servidor");
 							}
 						);
 					};

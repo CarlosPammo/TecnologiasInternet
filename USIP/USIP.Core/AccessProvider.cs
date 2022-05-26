@@ -3,6 +3,7 @@ using Microsoft.Owin.Security.OAuth;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using USIP.Error.Bussiness;
 using USIP.Model;
 
 namespace USIP.Core
@@ -27,7 +28,7 @@ namespace USIP.Core
 			var isAValidUser = IsAValidUser(credentials);
 			if (!isAValidUser)
 			{
-				throw new System.Exception("Usuario Invalido");
+				throw new NotValidCredentialsException(context.UserName);
 			}
 
 			var identity = new ClaimsIdentity(context.Options.AuthenticationType);

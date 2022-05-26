@@ -33,8 +33,10 @@ angular
 			};
 		}
 	])
-	.config(["$stateProvider", "$urlRouterProvider",
-		function ($stateProvider, $urlRouterProvider) {
+	.config(["$stateProvider", "$urlRouterProvider", "$httpProvider",
+		function ($stateProvider, $urlRouterProvider, $httpProvider) {
+			$httpProvider.interceptors.push("ErrorInterceptor");
+
 			$stateProvider
 				.state("home", {
 					url: "/home",
@@ -108,6 +110,18 @@ angular
 					$window.sessionStorage.removeItem("LoggedInUser")
 					delete $http.defaults.headers.common["Authorization"];
 					success();
+				}
+			};
+		}
+	])
+	.factory("ErrorInterceptor", ["$q",
+		function ($q) {
+			return {
+				"responseError": function (response) {
+					if ((response.status === 500) && (_.isObject(response.data))) {
+						alert(response.data.Message);
+					}
+					return $q.reject(response);
 				}
 			};
 		}

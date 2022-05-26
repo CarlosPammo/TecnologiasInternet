@@ -12,7 +12,7 @@
 								$location.path("/home");
 							},
 							function () {
-								alert("Invalid User");
+								
 							});
 					}
 				},
