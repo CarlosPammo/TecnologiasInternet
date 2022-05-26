@@ -179,6 +179,8 @@
     <Content Include="Scripts\home\home.js" />
     <Content Include="Scripts\login\login.html" />
     <Content Include="Scripts\login\login.js" />
+    <Content Include="Scripts\menu\menu.html" />
+    <Content Include="Scripts\menu\menu.js" />
     <Content Include="Scripts\student\student.html" />
     <Content Include="Scripts\student\student.js" />
     <Content Include="Web.config" />

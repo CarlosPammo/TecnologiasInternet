@@ -62,3 +62,63 @@ pre {
 	.login span {
 		color: #ffffff
 	}
+
+/**Start Menu*/
+.mdi-toolbar {
+	z-index: 99;
+	font-size: 1rem;
+	min-height: auto;
+	background: linear-gradient(to bottom, #219de6, #101010) !important;
+}
+
+.nav-main {
+	margin-bottom: 0;
+}
+
+.navbar-header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+.navbar {
+	min-height: 40px;
+	background: blanchedalmond;
+}
+
+	.navbar li.active {
+		border-style: solid;
+		border-width: 0 0 0 10px;
+		color: #3659bb;
+		background-color: #3b5e7f;
+	}
+
+		.navbar li.active > a:hover,
+		.navbar li > a:hover {
+			color: #FFFFFF;
+			background-color: #3b5e7f;
+		}
+
+		.navbar li.active > a:hover,
+		.navbar li > a:hover {
+			font-size: 1.8rem;
+		}
+
+.navbar-nav li.active a,
+.navbar-nav li a {
+	color: #954f4f;
+	transition: all .2s;
+}
+
+.navbar-right span {
+	color: #954f4f;
+	font-size: 20px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/**End Menu*/

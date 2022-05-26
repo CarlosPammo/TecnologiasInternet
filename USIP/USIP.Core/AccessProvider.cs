@@ -1,6 +1,7 @@
 ﻿using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using USIP.Error.Bussiness;

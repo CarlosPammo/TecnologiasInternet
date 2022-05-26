@@ -15,7 +15,8 @@ angular
 		//Custome modules
 		"home",
 		"student",
-		"login"
+		"login",
+		"menu"
 	])
 	.controller("AppCtrl", ["Authentication","$scope", "$window", "$location",
 		function (authentication, $scope, $window, $location) {
