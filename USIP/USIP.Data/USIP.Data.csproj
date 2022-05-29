@@ -62,6 +62,9 @@
   <ItemGroup>
     <Compile Include="Context\BaseContext.cs" />
     <Compile Include="Map\CareerMap.cs" />
+    <Compile Include="Map\CategorizeMap.cs" />
+    <Compile Include="Map\CategoryMap.cs" />
+    <Compile Include="Map\ProductMap.cs" />
     <Compile Include="Map\StudentMap.cs" />
     <Compile Include="Map\StudyMap.cs" />
     <Compile Include="Repository.cs" />

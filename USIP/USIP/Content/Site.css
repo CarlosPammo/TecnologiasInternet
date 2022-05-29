@@ -121,4 +121,8 @@ pre {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.li{
+	list-style:none;
+}
 /**End Menu*/
