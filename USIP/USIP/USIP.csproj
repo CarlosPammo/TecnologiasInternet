@@ -175,6 +175,8 @@
     <Content Include="Gruntfile.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\clientpage\clientpage.html" />
+    <Content Include="Scripts\clientpage\clientpage.js" />
     <Content Include="Scripts\home\home.html" />
     <Content Include="Scripts\home\home.js" />
     <Content Include="Scripts\login\login.html" />

@@ -18,7 +18,7 @@ namespace USIP.Data.Context
 		private void SetConnectionString()
 		{
 			Database.Connection.ConnectionString
-				= @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\TecnologiasInternet\USIP\USIP\App_Data\USIP.mdf;Integrated Security=True";
+				= @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Tec.Internet\280522\TecnologiasInternet\USIP\USIP\App_Data\USIP.mdf;Integrated Security=True";
 		}
 
 		protected override void OnModelCreating(DbModelBuilder builder)
@@ -26,6 +26,7 @@ namespace USIP.Data.Context
 			builder.Configurations.Add(new StudentMap(schema));
 			builder.Configurations.Add(new CareerMap(schema));
 			builder.Configurations.Add(new StudyMap(schema));
+			//builder.Configurations.Add(new BClientMap(schema));
 		}
 	}
 }

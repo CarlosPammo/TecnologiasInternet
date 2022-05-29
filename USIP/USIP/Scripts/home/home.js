@@ -39,7 +39,12 @@
 
 					scope.edit = function (student) {
 						scope.student = student;
-						modal = $modal.open(config);
+						api.student.put(student,
+							function (response) {
+								load();
+								modal.close();
+							}
+						);
 					};
 
 					scope.delete = function (student) {

@@ -16,7 +16,8 @@ angular
 		"home",
 		"student",
 		"login",
-		"menu"
+		"menu",
+        "clientpage"
 	])
 	.controller("AppCtrl", ["Authentication","$scope", "$window", "$location",
 		function (authentication, $scope, $window, $location) {
@@ -50,6 +51,10 @@ angular
 				.state("login", {
 					url: "/login",
 					template: "<login></login>"
+				})
+				.state("clientpage", {
+					url: "/clientpage",
+					template: "<clientpage></clientpage>"
 				});
 
 			$urlRouterProvider.otherwise("/login")

@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\BaseContext.cs" />
+    <Compile Include="Map\BClientMap.cs" />
     <Compile Include="Map\CareerMap.cs" />
     <Compile Include="Map\StudentMap.cs" />
     <Compile Include="Map\StudyMap.cs" />
