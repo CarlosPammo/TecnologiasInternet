@@ -1,30 +1,53 @@
-﻿<nav class="navbar nav-main">
-	<div class="container-fluid">
-		<div class="navbar-menu">
-			<ul class="nav navbar-nav navbar-left">
-				<li>
-					<a class="cursor" ng-click="changePage('/home')">
-						<span class="glyphicon glyphicon-home"></span>
-						<span>Home</span>
-					</a>
-				</li>
-				<li>
-					<a class="cursor" ng-click="changePage('/student')">
-						<span class="glyphicon glyphicon-book"></span>
-						<span>Estudiante</span>
-					</a>
-				</li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li>
-					<span>{{user}}</span>
-				</li>
-				<li>
-					<a class="cursor" ng-click="logOut()">
-						<span class="glyphicon glyphicon-log-out"></span>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+﻿<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a class="cursor" ng-click="changePage('/home')">
+                        <span class="glyphicon glyphicon-home" />
+                        <span>Inicio </span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-th-list" />
+                        Categorias
+                        <span class="caret">
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu" ng-repeat="category in categorys">
+                        <li><a href="#">{{category.Name}}</a></li>
+
+                    </ul>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+
+                        <span class="glyphicon glyphicon-bullhorn" />
+                        <span>Ofertas Escpeciales </span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="cursor" ng-click="changePage('/login')">
+                        <span class="glyphicon glyphicon-user" />
+                        <span>Iniciar Sesión</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>

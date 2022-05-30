@@ -121,8 +121,25 @@ pre {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
-.li{
-	list-style:none;
-}
+/**/
 /**End Menu*/
+.li-login {
+	list-style: none;
+}
+.navbar {
+	background-color: rgb(204, 255, 255);
+}
+.navbar-nav > li > .username {
+	font-size:25px;
+}
+.navbar-header{
+	justify-content:end;
+}
+.navbar-nav > li {
+	display:flex;
+	justify-content:center;
+}
+.navbar-toggle {
+	background-color: rgb(51, 204, 255);
+	border: 1px solid rgb(51, 204, 255);
+}

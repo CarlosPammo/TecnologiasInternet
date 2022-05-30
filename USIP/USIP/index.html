@@ -8,10 +8,17 @@
 </head>
 <body>
 	<div ng-controller="AppCtrl">
-		<div layout="row" layout-align="center" ng-if="!hide()">
+		<div layout="row" layout-align="center" ng-if="hide()">
 			<md-content layout="row" flex style="overflow: inherit">
 				<md-toolbar class="mdi-toolbar">
 					<custom-menu></custom-menu>
+				</md-toolbar>
+			</md-content>
+		</div>
+		<div layout="row" layout-align="center" ng-if="!hide()">
+			<md-content layout="row" flex style="overflow: inherit">
+				<md-toolbar class="mdi-toolbar">
+					<menu-editor></menu-editor>
 				</md-toolbar>
 			</md-content>
 		</div>
@@ -43,5 +50,8 @@
 	<script src="Scripts/student/student.js"></script>
 	<script src="Scripts/login/login.js"></script>
 	<script src="Scripts/menu/menu.js"></script>
+	<script src="Scripts/editor/editor.js"></script>
+	<script src="Scripts/menu_editor/menu_editor.js"></script>
+	<script src="Scripts/product/product.js"></script>
 </body>
 </html>

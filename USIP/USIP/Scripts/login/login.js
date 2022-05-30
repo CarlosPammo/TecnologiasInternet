@@ -9,12 +9,13 @@
 					scope.login = function () {
 						authentication.token(scope.credentials,
 							function (validated) {
-								$location.path("/home");
+								$location.path("/product");
 							},
 							function () {
 								
 							});
 					}
+					
 				},
 				templateUrl: "Scripts/login/login.html"
 			}

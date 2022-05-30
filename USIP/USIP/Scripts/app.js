@@ -16,7 +16,9 @@ angular
 		"home",
 		"student",
 		"login",
-		"menu"
+		"menu",
+		"menu_editor",
+		"product"
 	])
 	.controller("AppCtrl", ["Authentication","$scope", "$window", "$location",
 		function (authentication, $scope, $window, $location) {
@@ -26,7 +28,7 @@ angular
 				angular.extend(authentication.loggedUser, user);
 				$http.defaults.headers.common["Authorization"] = "Bearer " + user.access_token;
 			} else {
-				$location.path("/login")
+				$location.path("/home")
 			}
 
 			$scope.hide = function () {
@@ -43,16 +45,16 @@ angular
 					url: "/home",
 					template: "<home></home>"
 				})
-				.state("student", {
-					url: "/student",
-					template: "<student></student>"
+				.state("product", {
+					url: "/product",
+					template: "<product></product>"
 				})
 				.state("login", {
 					url: "/login",
 					template: "<login></login>"
 				});
 
-			$urlRouterProvider.otherwise("/login")
+			$urlRouterProvider.otherwise("/home")
 		}
 	])
 	.service("Api", ["$resource", "$http",
