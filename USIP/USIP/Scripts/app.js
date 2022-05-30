@@ -18,7 +18,8 @@ angular
 		"login",
 		"menu",
 		"menu_editor",
-		"product"
+		"product",
+		"edit_product",
 	])
 	.controller("AppCtrl", ["Authentication","$scope", "$window", "$location",
 		function (authentication, $scope, $window, $location) {
@@ -60,6 +61,12 @@ angular
 	.service("Api", ["$resource", "$http",
 		function ($resource, $http) {
 			this.student = $resource("../api/student", null, {
+				"get": { method: "GET" },
+				"post": { method: "POST" },
+				"put": { method: "PUT" },
+				"delete": { method: "DELETE" }
+			});
+			this.product = $resource("../api/product", null, {
 				"get": { method: "GET" },
 				"post": { method: "POST" },
 				"put": { method: "PUT" },
