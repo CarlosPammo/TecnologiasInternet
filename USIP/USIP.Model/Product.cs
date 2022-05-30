@@ -14,6 +14,7 @@ namespace USIP.Model
         public decimal Price { get; set; }
         public int Count { get; set; }
         public string IsSpecialOffert { get; set; }
+        public string ImageUrl { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }
