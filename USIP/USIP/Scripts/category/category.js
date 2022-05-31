@@ -8,12 +8,19 @@
 				scope: {},
 				link: function (scope) {
 					var modal;
-					var config = {
+					var categoryEdit;
+					var configAdd = {
 						scope: scope,
 						size: "lg",
 						backdrop: "static",
-						template: "<edit-category handler='handler' category='category'></edit-category>"
+						template: "<edit-category handler='handler' category='category'  ></edit-category>"
 					};
+					var configEditor = {
+						scope: scope,
+						size: "lg",
+						backdrop: "static",
+						template: "<edit-category handler='handlerEdit' category='categoryEdit'  ></edit-category>"
+                    }
 
 					function load() {
 						api.category.get(
@@ -23,9 +30,15 @@
 						);
 					}
 
-					scope.openEditor = function () {
-						modal = $modal.open(config);
+					scope.openAdd = function () {
+						modal = $modal.open(configAdd);
 					};
+
+					scope.openEditor = function (category) {
+						
+						categoryEdit = category;
+						modal = $modal.open(configEditor);
+                    }
 
 					scope.handler = {
 						save: function (data) {
@@ -38,9 +51,21 @@
 						},
 						close: function () {
 							modal.close();
+						}
+					}
+					
+
+					scope.handlerEdit = {
+						save: function (data) {
+							scope.edit(data);
+						},
+						close: function () {
+							modal.close();
+						},
+						getCategory: function () {
+							return categoryEdit;
                         }
 					}
-
 				
 
 					scope.edit = function (category) {

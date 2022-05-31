@@ -1,6 +1,6 @@
 ﻿angular.module("product", [])
 	.directive("product", ["Api", "Authentication", "$uibModal",
-		function (api, $modal) {
+		function (api, autoc,$modal) {
 			
 			return {
 				restrict: "E",
