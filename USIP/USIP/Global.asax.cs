@@ -31,6 +31,8 @@ namespace USIP
 				.Replace(typeof(IHttpActionInvoker), new ErrorHandler());
 
 			GlobalConfiguration.Configuration.EnsureInitialized();
+			GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+			GlobalConfiguration.Configuration.Formatters.Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);
 		}
 	}
 }

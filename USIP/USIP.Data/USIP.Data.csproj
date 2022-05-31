@@ -75,6 +75,18 @@
     <Compile Include="Migrations\202205300639316_AddedMyModels.designer.cs">
       <DependentUpon>202205300639316_AddedMyModels.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202205310023472_RemoveCategorize.cs" />
+    <Compile Include="Migrations\202205310023472_RemoveCategorize.designer.cs">
+      <DependentUpon>202205310023472_RemoveCategorize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205310043227_RemoveRequiredImageUrlColumn.cs" />
+    <Compile Include="Migrations\202205310043227_RemoveRequiredImageUrlColumn.designer.cs">
+      <DependentUpon>202205310043227_RemoveRequiredImageUrlColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205310212476_AddCategorize.cs" />
+    <Compile Include="Migrations\202205310212476_AddCategorize.designer.cs">
+      <DependentUpon>202205310212476_AddCategorize.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,6 +111,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202205300639316_AddedMyModels.resx">
       <DependentUpon>202205300639316_AddedMyModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205310023472_RemoveCategorize.resx">
+      <DependentUpon>202205310023472_RemoveCategorize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205310043227_RemoveRequiredImageUrlColumn.resx">
+      <DependentUpon>202205310043227_RemoveRequiredImageUrlColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205310212476_AddCategorize.resx">
+      <DependentUpon>202205310212476_AddCategorize.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

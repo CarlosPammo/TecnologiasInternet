@@ -28,6 +28,7 @@ namespace USIP.Data.Context
 			builder.Configurations.Add(new StudyMap(schema));
 			builder.Configurations.Add(new CategoryMap(schema));
 			builder.Configurations.Add(new ProductMap(schema));
+			builder.Configurations.Add(new CategorizeMap(schema));
 		}
 	}
 }

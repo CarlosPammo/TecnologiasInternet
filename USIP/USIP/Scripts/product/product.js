@@ -1,6 +1,6 @@
 ﻿angular.module("product", [])
 	.directive("product", ["Api", "Authentication", "$uibModal",
-		function (api, authentication, $modal) {
+		function (api, $modal) {
 			
 			return {
 				restrict: "E",
@@ -23,19 +23,28 @@
 						);
 					}
 
-
 					scope.openEditor = function () {
 						modal = $modal.open(config);
 					};
 
 					scope.handler = {
-						save: function (data) {
+						save: function (data, idCategory) {
+						
 							api.product.post(data,
 								function (response) {
 									load();
 									modal.close();
 								}
 							);
+							let last = scope.products.reduce((a, b) => { return Math.max(a.id, b.id) });
+
+							let categoryze = { idCategory : idCategory, idProduct : last.id };
+							api.categorize.post(categoryze,
+								function (response) {
+									load();
+								}
+							);
+							
 						},
 						close: function () {
 							modal.close();
@@ -62,7 +71,6 @@
 
 
 					load();
-					getCategorys();
 				},
 				templateUrl: "Scripts/product/product.html"
 			}

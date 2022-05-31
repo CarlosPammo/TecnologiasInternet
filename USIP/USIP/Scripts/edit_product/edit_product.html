@@ -61,16 +61,17 @@
 					<span>Categoria: </span>
 				</div>
 				<div class="col-lg-8">
-					<select name="select" >
-						<option  ng-repeat="category in categorys" value="{{category.id}}">{{category.name}}</option>
+					<select name="select" ng-model="idCategory">
+						<option ng-repeat="category in categorys" value="{{category.id}}">{{category.name}}</option>
 					</select>
 				</div>
 			</div>
 
+
 		</div>
 	</div>
 	<div class="modal-footer">
-		<div class="btn btn-default" ng-click="handler.save(student)">
+		<div class="btn btn-default" ng-click="handler.save(product,idCategory) ">
 			<span class="glyphicon glyphicon-ok"></span> Aceptar
 		</div>
 		<div class="btn btn-default" ng-click="handler.close()">

@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using USIP.Model;
@@ -12,6 +13,7 @@ namespace USIP.Controller
 		[HttpGet]
 		public HttpResponseMessage GetAll()
 		{
+
 			var products = Repository<Product>()
 				.Select(product => true);
 
@@ -26,6 +28,7 @@ namespace USIP.Controller
 		[HttpPost]
 		public HttpResponseMessage Insert(Product product)
 		{
+			product.CreatedAt = DateTime.Now;
 			var response = Repository<Product>()
 				.Insert(product);
 

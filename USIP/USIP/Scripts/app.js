@@ -84,6 +84,12 @@ angular
 				"put": { method: "PUT" },
 				"delete": { method: "DELETE" }
 			});
+			this.categorize = $resource("../api/categorize", null, {
+				"get": { method: "GET" },
+				"post": { method: "POST" },
+				"put": { method: "PUT" },
+				"delete": { method: "DELETE" }
+			});
 
 			this.token = function (data) {
 				return $http({

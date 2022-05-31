@@ -9,15 +9,19 @@
 					product: "=",
 				
 				},
-
+				
+	
 				link: function (scope) {
 					function load() {
 						api.category.get(
 							function (response) {
 								scope.categorys = response.categorys;
+								categorys = response.categorys;
+
 							}
 						);
 					}
+
 					load();
 				},
 				templateUrl: "Scripts/edit_product/edit_product.html"
