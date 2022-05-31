@@ -151,7 +151,6 @@ pre {
 	height: calc(100% - 80px);
 }
 .products > .container {
-	background-color: aqua;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -160,7 +159,6 @@ pre {
 }
 
 .container-products{
-	background-color:red;
 	margin-left:20%;
 	margin-right:20%;
 	margin-bottom:50px;
@@ -169,6 +167,50 @@ pre {
 	padding:45px;
 	overflow:auto;
 	
+}
+.container-products >
+.row {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.categorys {
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	width: 100%;
+	height: calc(100% - 80px);
+}
+
+.categorys > .container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: calc(100%);
+}
+
+.container-categorys {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	padding: 45px;
+	overflow: auto;
+}
+
+.row-category {
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:10px;
+
+}
+
+.title-category {
+	margin:0px;
 }
 
 .caption > p {
@@ -181,9 +223,28 @@ pre {
 
 }
 
+.form-group > div{
+	margin-bottom:25px;
+}
+
+.form-item{
+	padding:20px;
+}
+
+@media only screen and (max-width: 1205px) {
+	.row {
+		display: block;
+	}
+}
+
+
 @media only screen and (max-width: 600px) {
 	.container-products {
-		background-color: blue;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.container-categorys {
 		margin-left: 10%;
 		margin-right: 10%;
 	}

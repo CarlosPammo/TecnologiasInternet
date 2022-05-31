@@ -16,5 +16,7 @@ namespace USIP.Model
         public string IsSpecialOffert { get; set; }
         public string ImageUrl { get; set; }
         public DateTime CreatedAt { get; set; }
+        public int IdCategory { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

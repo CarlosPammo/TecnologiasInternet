@@ -20,6 +20,8 @@ angular
 		"menu_editor",
 		"product",
 		"edit_product",
+		"category",
+		"edit_category"
 	])
 	.controller("AppCtrl", ["Authentication","$scope", "$window", "$location",
 		function (authentication, $scope, $window, $location) {
@@ -50,6 +52,10 @@ angular
 					url: "/product",
 					template: "<product></product>"
 				})
+				.state("category", {
+					url: "/category",
+					template: "<category></category>"
+				})
 				.state("login", {
 					url: "/login",
 					template: "<login></login>"
@@ -67,6 +73,12 @@ angular
 				"delete": { method: "DELETE" }
 			});
 			this.product = $resource("../api/product", null, {
+				"get": { method: "GET" },
+				"post": { method: "POST" },
+				"put": { method: "PUT" },
+				"delete": { method: "DELETE" }
+			});
+			this.category = $resource("../api/category", null, {
 				"get": { method: "GET" },
 				"post": { method: "POST" },
 				"put": { method: "PUT" },

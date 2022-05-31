@@ -24,8 +24,9 @@ namespace USIP.Data.Map
 			Property(p => p.IsSpecialOffert).HasColumnName("IsSpecialOffert").IsRequired();
 			Property(p => p.ImageUrl).HasColumnName("ImageUrl").IsRequired();
 			Property(p => p.CreatedAt).HasColumnName("CreatedAt").IsRequired();
+			Property(p => p.IdCategory).HasColumnName("IdCategory").IsRequired();
 
-
+			HasRequired(p => p.Category).WithMany().HasForeignKey(p => p.IdCategory);
 
 		}
 	}

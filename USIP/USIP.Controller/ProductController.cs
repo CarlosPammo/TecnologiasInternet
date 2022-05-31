@@ -12,7 +12,6 @@ namespace USIP.Controller
 		[HttpGet]
 		public HttpResponseMessage GetAll()
 		{
-			// SELECT * FROM Estudiantes
 			var products = Repository<Product>()
 				.Select(product => true);
 

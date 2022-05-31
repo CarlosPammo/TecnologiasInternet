@@ -1,4 +1,4 @@
-﻿<form>
+﻿<form class="form-item">
 	<div class="modal-header">
 		<span class="glyphicon glyphicon-pencil"></span> Editor
 	</div>
@@ -9,24 +9,71 @@
 					<span>Nombre: </span>
 				</div>
 				<div class="col-lg-8">
-					<input class="form-control" type="text" ng-model="student.name" />
+					<input class="form-control" type="text" ng-model="product.name" />
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-4">
-					<span>Apellido: </span>
+					<span>Descripción: </span>
 				</div>
 				<div class="col-lg-8">
-					<input class="form-control" type="text" ng-model="student.lastname" />
+					<input class="form-control" type="text" ng-model="product.description" />
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<span>Precio: </span>
+				</div>
+				<div class="col-lg-8">
+					<input class="form-control" type="number" ng-model="product.price" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<span>Cantidad: </span>
+				</div>
+				<div class="col-lg-8">
+					<input class="form-control" type="number" ng-model="product.count" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<span>Oferta Especial: </span>
+				</div>
+				<div class="col-lg-8">
+					<select name="select" ng-model="product.isSpecialOffert">
+						<option value="SI">SI</option>
+						<option value="NO" selected>NO</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<span>URL de la Image: </span>
+				</div>
+				<div class="col-lg-8">
+					<input type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif" ng-model="product.imageUrl">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<span>Categoria: </span>
+				</div>
+				<div class="col-lg-8">
+					<select name="select" >
+						<option  ng-repeat="category in categorys" value="{{category.id}}">{{category.name}}</option>
+					</select>
+				</div>
+			</div>
+
 		</div>
 	</div>
 	<div class="modal-footer">
 		<div class="btn btn-default" ng-click="handler.save(student)">
 			<span class="glyphicon glyphicon-ok"></span> Aceptar
 		</div>
-		<div class="btn btn-default">
+		<div class="btn btn-default" ng-click="handler.close()">
 			<span class="glyphicon glyphicon-remove"></span> Cancelar
 		</div>
 	</div>

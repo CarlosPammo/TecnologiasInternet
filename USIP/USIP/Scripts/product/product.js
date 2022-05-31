@@ -1,6 +1,6 @@
 ﻿angular.module("product", [])
-	.directive("product", [
-		function () {
+	.directive("product", ["Api", "Authentication", "$uibModal",
+		function (api, authentication, $modal) {
 			
 			return {
 				restrict: "E",
@@ -12,7 +12,7 @@
 						scope: scope,
 						size: "lg",
 						backdrop: "static",
-						template: "<editProduct handler='handler' product='product'></student>"
+						template: "<edit-product handler='handler' product='product' ></edit-product>"
 					};
 
 					function load() {
@@ -22,6 +22,7 @@
 							}
 						);
 					}
+
 
 					scope.openEditor = function () {
 						modal = $modal.open(config);
@@ -35,7 +36,10 @@
 									modal.close();
 								}
 							);
-						}
+						},
+						close: function () {
+							modal.close();
+                        }
 					}
 
 					scope.edit = function (product) {
@@ -58,6 +62,7 @@
 
 
 					load();
+					getCategorys();
 				},
 				templateUrl: "Scripts/product/product.html"
 			}
