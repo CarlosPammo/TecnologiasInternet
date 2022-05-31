@@ -1,20 +1,39 @@
 ﻿<nav class="navbar nav-main">
 	<div class="container-fluid">
 		<div class="navbar-menu">
-			<ul class="nav navbar-nav navbar-left">
-				<li>
-					<a class="cursor" ng-click="changePage('/home')">
-						<span class="glyphicon glyphicon-home"></span>
-						<span>Home</span>
-					</a>
-				</li>
-				<li>
-					<a class="cursor" ng-click="changePage('/student')">
-						<span class="glyphicon glyphicon-book"></span>
-						<span>Estudiante</span>
-					</a>
-				</li>
-			</ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <a class="cursor" ng-click="changePage('/home')">
+                        <span class="glyphicon glyphicon-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="cursor"  ng-if="rol.student"  ng-click="changePage('/student')">
+                        <span class="glyphicon glyphicon-book"></span>
+                        <span>Estudiante</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="cursor"  ng-if="rol.rectory"  ng-click="changePage('/rectory')">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                        <span>Rectorado</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="cursor" ng-if="rol.marketing" ng-click="changePage('/marketing')">
+                        <span class="glyphicon glyphicon-euro"></span>
+                        <span>marketing</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="cursor"  ng-if="rol.administrator"  ng-click="changePage('/administrator')">
+                        <span class="lyphicon glyphicon-queen"></span>
+                        <span>Administrador</span>
+                    </a>
+                </li>
+
+            </ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li>
 					<span>{{user}}</span>

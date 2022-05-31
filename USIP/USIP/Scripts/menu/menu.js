@@ -6,8 +6,8 @@
 				replace: true,
 				scope: {},
 				link: function (scope) {
-					scope.user = authentication.loggedUser.username;
-
+                    scope.user = authentication.loggedUser.username;
+                    scope.rol = authentication.loggedUser.rol;
 					scope.logOut = function () {
 						authentication.loggingOff(function () {
 							$location.path("/login");

@@ -53,3 +53,27 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
 2022-05-25 21:04:04,105 [12]  WARN: Este usuario no te permito insertar Estudiantes
+2022-05-28 12:49:10,514 [11] ERROR: Message: The model backing the 'BaseContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).. Trace:    en System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   en System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   en System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   en System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   en System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   en System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   en System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   en System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   en System.Data.Entity.Internal.InternalContext.Initialize()
+   en System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   en System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   en System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   en System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   en System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   en USIP.Data.Repository`1.Select(Expression`1 lambda) en D:\123\TecnologiasInternet\USIP\USIP.Data\Repository.cs:línea 60
+   en USIP.Controller.StudentController.GetAll() en D:\123\TecnologiasInternet\USIP\USIP.Controller\StudentController.cs:línea 15
+   en lambda_method(Closure , Object , Object[] )
+   en System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   en System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   en System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()

@@ -10,11 +10,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>USIP.Data</RootNamespace>
     <AssemblyName>USIP.Data</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,8 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\BaseContext.cs" />
-    <Compile Include="Map\BClientMap.cs" />
-    <Compile Include="Map\CareerMap.cs" />
+    <Compile Include="Map\CredencialesMap.cs" />
+    <Compile Include="Map\RolMap.cs" />
+    <Compile Include="Map\UserMap.cs" />
     <Compile Include="Map\StudentMap.cs" />
     <Compile Include="Map\StudyMap.cs" />
     <Compile Include="Repository.cs" />

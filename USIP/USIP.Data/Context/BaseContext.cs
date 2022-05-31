@@ -11,22 +11,25 @@ namespace USIP.Data.Context
 			: base("name=SqlContext")
 		{
 			schema = "dbo";
-			Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext>());
-			SetConnectionString();
+			Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BaseContext>());
+            SetConnectionString();
 		}
 
 		private void SetConnectionString()
 		{
 			Database.Connection.ConnectionString
-				= @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Tec.Internet\280522\TecnologiasInternet\USIP\USIP\App_Data\USIP.mdf;Integrated Security=True";
-		}
+				= @"data source=Elias-PC;Initial Catalog=Usip_elias2;Integrated Security=True;";
+        }   
 
-		protected override void OnModelCreating(DbModelBuilder builder)
+        protected override void OnModelCreating(DbModelBuilder builder)
 		{
 			builder.Configurations.Add(new StudentMap(schema));
-			builder.Configurations.Add(new CareerMap(schema));
+			builder.Configurations.Add(new UserMap(schema));
 			builder.Configurations.Add(new StudyMap(schema));
-			//builder.Configurations.Add(new BClientMap(schema));
-		}
+            builder.Configurations.Add(new CredencialesMap(schema));
+            builder.Configurations.Add(new RolMap(schema));
+            //builder.Configurations.Add(new RolMap(schema));
+
+        }
 	}
 }

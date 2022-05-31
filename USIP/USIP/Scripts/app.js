@@ -16,8 +16,13 @@ angular
 		"home",
 		"student",
 		"login",
-		"menu",
-        "clientpage"
+        "menu",
+        "rectory",
+        "marketing",
+        "administrator"
+    
+
+
 	])
 	.controller("AppCtrl", ["Authentication","$scope", "$window", "$location",
 		function (authentication, $scope, $window, $location) {
@@ -51,11 +56,19 @@ angular
 				.state("login", {
 					url: "/login",
 					template: "<login></login>"
-				})
-				.state("clientpage", {
-					url: "/clientpage",
-					template: "<clientpage></clientpage>"
-				});
+                })
+                .state("rectory", {
+                    url: "/rectory",
+                    template: "<rectory></rectory>"
+                })
+                .state("marketing", {
+                    url: "/marketing",
+                    template: "<marketing></marketing>"
+                })
+                .state("administrator", {
+                    url: "/administrator",
+                    template: "<administrator></administrator>"
+                });
 
 			$urlRouterProvider.otherwise("/login")
 		}
@@ -66,8 +79,16 @@ angular
 				"get": { method: "GET" },
 				"post": { method: "POST" },
 				"put": { method: "PUT" },
-				"delete": { method: "DELETE" }
+                "delete": { method: "DELETE" }
+            });
+
+            this.user = $resource("../api/user", null, {
+                    "get": { method: "GET" },
+                    "post": { method: "POST" },
+                    "put": { method: "PUT" },
+                    "delete": { method: "DELETE" }
 			});
+     
 
 			this.token = function (data) {
 				return $http({
@@ -86,7 +107,8 @@ angular
 			var freshUser = function () {
 				return {
 					username: "",
-					access_token: ""
+                    access_token: "",
+                    rol: ""
 				}
 			}
 			var authenticatedUser = new freshUser();
@@ -97,9 +119,10 @@ angular
 
 			return {
 				loggedUser: authenticatedUser,
-				token: function (credentials, success, failed) {
-					var data = "grant_type=password&username=" + credentials.user + "&password=" + credentials.password;
-					api.token(data).then(function (response) {
+                token: function (credentials, success, failed) {
+                    var data = "grant_type=password&username=" + credentials.user + "&password=" + credentials.password + "&rol=" + credentials.rol;
+                    api.token(data).then(function (response) {
+                        response.data.rol = angular.fromJson(response.data.rol);
 						extend(response.data);
 						$http.defaults.headers.common["Authorization"] = "Bearer " + response.data.access_token;
 						$window.sessionStorage.setItem("LoggedInUser", angular.toJson(authenticatedUser));

@@ -16,7 +16,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>USIP</RootNamespace>
     <AssemblyName>USIP</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -28,6 +28,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>4.3</TypeScriptToolsVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -84,17 +85,13 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Http, Version=5.2.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.8\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=5.2.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.8\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
@@ -174,15 +171,21 @@
     <Content Include="Content\Site.css" />
     <Content Include="Gruntfile.js" />
     <Content Include="index.html" />
+    <Content Include="Scripts\administrator\administrator.html" />
+    <Content Include="Scripts\administrator\administrator.js" />
     <Content Include="Scripts\app.js" />
-    <Content Include="Scripts\clientpage\clientpage.html" />
-    <Content Include="Scripts\clientpage\clientpage.js" />
+    <Content Include="Scripts\home\Photos\usip2.0.png" />
+    <Content Include="Scripts\login\Photos\toys.jpg" />
     <Content Include="Scripts\home\home.html" />
     <Content Include="Scripts\home\home.js" />
     <Content Include="Scripts\login\login.html" />
     <Content Include="Scripts\login\login.js" />
+    <Content Include="Scripts\marketing\marketing.html" />
+    <Content Include="Scripts\marketing\marketing.js" />
     <Content Include="Scripts\menu\menu.html" />
     <Content Include="Scripts\menu\menu.js" />
+    <Content Include="Scripts\rectory\rectory.html" />
+    <Content Include="Scripts\rectory\rectory.js" />
     <Content Include="Scripts\student\student.html" />
     <Content Include="Scripts\student\student.js" />
     <Content Include="Web.config" />

@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>USIP.Core</RootNamespace>
     <AssemblyName>USIP.Core</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,6 +72,10 @@
     <ProjectReference Include="..\USIP.Controller\USIP.Controller.csproj">
       <Project>{0b7489fd-5b51-4a7f-9e63-0e3a68fcd993}</Project>
       <Name>USIP.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USIP.Data\USIP.Data.csproj">
+      <Project>{FD106139-B7B5-47F0-AF4C-9A8F37E2C919}</Project>
+      <Name>USIP.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\USIP.Error\USIP.Error.csproj">
       <Project>{28844e5a-6c87-4a07-b5ed-fddc33c062fd}</Project>
